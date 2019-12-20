@@ -1,0 +1,24 @@
+{
+  "name": "vue-card-flip",
+  "version": "0.1.0",
+  "description": "A Vue Component that flips on-click",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve NiceHandsomeButton.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "eslintIgnore": [
+    "src/VueCardFlip.vue"
+  ],
+  "author": "Shaqaruden",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.1.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
